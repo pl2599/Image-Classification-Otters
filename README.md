@@ -1,7 +1,6 @@
 # Image Classification - Otters
 
 A Convoluted Neural Network that classifies images as a Sea Otter or River Otter. 
-The [Web App](https://otter-classifier-255602.appspot.com/) of the trained model is deployed using Google Cloud Platform.
 
 <p align = 'center'>
     <img src="figs/seaOtter.jpg" width = '360'>
@@ -33,9 +32,9 @@ Likewise, please follow the instructions [here]((https://github.com/pl2599/Image
 
 ### Data
 
-The data used to train the mdoel are 400 images from google for each of the two classes:
+The data used to train the modle are 400 images from google for each of the two classes:
 * Sea Otter
-* River OTter
+* River Otter
 
 These images are read from a text file containing the urls and validated using the *download_images* and *verify_images* functions respectively. The classes are tagged based on the folder that the images reside in using the *ImageDataBunch.from_folder* function.
 
